@@ -1,0 +1,16 @@
+.card_footer li{
+    list-style: none;
+}
+.card_footer .fas{
+    color: #4444448c;
+}
+.rating{
+    font-size: 20px;
+}
+.card-title{
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+.card-title:hover{
+    color: #e5175c;
+}

@@ -1,0 +1,16 @@
+.contact_btn{
+    font-size: 18px;
+    padding: 16px 30px;
+    text-align: center;
+    position: relative;
+    color: #fefefe;
+    text-transform: uppercase;
+    background: #0073ff;
+    font-weight: 600;
+    display: inline-block;
+    border: 2px solid transparent;
+    transition: background 0.5s linear;
+}
+.contact_btn:hover {
+    background: #e5175c;
+}

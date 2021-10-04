@@ -1,0 +1,31 @@
+.about_banner{
+    background: url('https://xpressrow.com/html/edulan/assets/img/bg/page_title_bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    padding: 150px 0;
+    text-align: center;
+    position: relative;
+    
+}
+.about_banner::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.479);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner_title{
+    z-index: 1;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+}
