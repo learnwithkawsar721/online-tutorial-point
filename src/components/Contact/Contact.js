@@ -27,7 +27,7 @@ const Contact = () => {
       </div>
       <Container>
         <Row className="g-4 my-4">
-          <Col className="col-6">
+          <Col className="col-12 col-sm-12 col-md-6 col-lg-6">
             <FloatingLabel
               controlId="floatingInput"
               label="Your Name"
@@ -36,7 +36,7 @@ const Contact = () => {
               <Form.Control type="text" placeholder="kawsar" />
             </FloatingLabel>
           </Col>
-          <Col className="col-6">
+          <Col className="col-12 col-sm-12 col-md-6 col-lg-6">
             <FloatingLabel controlId="floatingPassword" label="E-mail Address">
               <Form.Control type="email" placeholder="E-mail" />
             </FloatingLabel>

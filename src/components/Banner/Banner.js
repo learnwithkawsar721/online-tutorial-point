@@ -3,7 +3,6 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import "./Banner.css";
 const Banner = () => {
-  document.title = "Home";
   return (
     <Container fluid className="banner-container">
       <Row className="g-3">

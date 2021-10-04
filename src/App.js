@@ -23,6 +23,7 @@ function App() {
             <About />
           </Route>
           <Route exact path="/service">
+           
             <Servicess />
           </Route>
           <Route exact path="/contact">
