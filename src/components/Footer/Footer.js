@@ -5,12 +5,14 @@ const Footer = () => {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col className="col-10 mx-auto ">
-          <div className="d-flex justify-content-between">
-            <p>Online Tutorial Point</p>
-            <p>&copy;CopyRight by Kawsar</p>
-            <p>kawsar721g@gmail.com</p>
-          </div>
+        <Col className="col-12 col-sm-12 col-md-4 col-lg-4">
+          <p>Online Tutorial Point</p>
+        </Col>
+        <Col className="col-12 col-sm-12 col-md-4 col-lg-4">
+          <p>&copy;CopyRight by Kawsar</p>
+        </Col>
+        <Col className="col-12 col-sm-12 col-md-4 col-lg-4">
+          <p>kawsar721g@gmail.com</p>
         </Col>
       </Row>
     </Container>
