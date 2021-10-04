@@ -1,3 +1,4 @@
+import { NotFound } from "http-errors";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import About from "./components/About/About";
@@ -23,11 +24,13 @@ function App() {
             <About />
           </Route>
           <Route exact path="/service">
-           
             <Servicess />
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
       </Router>
